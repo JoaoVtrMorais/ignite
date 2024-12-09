@@ -18,7 +18,6 @@ export function Comment({ content, onDeleteComment }) {
                             <strong>João Vitor Morais</strong>
                             <time title='07 de Dezembro às 08:13h' dateTime='2024-12-07 08:13:30'>Cerca de 1h atrás</time>
                         </div>
-gi
                         <button onClick={handleDeleteComment} title='Deletar comentário'>
                             <Trash size={24}/>
                         </button>
