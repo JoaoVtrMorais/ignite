@@ -28,7 +28,7 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
                 <div className={styles.commentContent}>
                     <header>
                         <div className={styles.authorAndTime}>
-                            <strong>João Vitor Morais</strong>
+                            <strong>Diego Fernandes</strong>
                             <time title='07 de Dezembro às 08:13h' dateTime='2024-12-07 08:13:30'>Cerca de 1h atrás</time>
                         </div>
                         <button onClick={handleDeleteComment} title='Deletar comentário'>
